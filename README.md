@@ -100,8 +100,8 @@ Mercado_Libre_ETL/
 
 ### Pré-requisitos
 ```bash
-python >= 3.8
-pip
+python >=3.11
+uv
 ```
 
 ### Instalação
@@ -110,21 +110,9 @@ pip
 git clone https://github.com/seu-usuario/Mercado_Libre_ETL.git
 cd Mercado_Libre_ETL
 
-# Crie um ambiente virtual
-python -m venv venv
-venv\Scripts\activate  # Windows
+# Crie um ambiente virtual com UV
+venv build  
 
-# Instale as dependências
-pip install -r requirements.txt
-```
-
-### Execução
-```bash
-# Execute o pipeline ETL completo
-python main.py
-
-# Para análise exploratória
-jupyter notebook notebooks/exploratory_analysis.ipynb
 ```
 
 ## 📊 Resultados Esperados
@@ -174,10 +162,10 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📞 Contato
 
-- **Autor**: Seu Nome
-- **Email**: seu.email@exemplo.com
-- **LinkedIn**: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
+- **Autor**: Thiago Yuki
+- **Email**: thiagoyuki@resolvedortech.online
+- **LinkedIn**: [Seu LinkedIn](https://www.linkedin.com/in/thiagoyuki/)
 
 ---
 
-*Desenvolvido com ❤️ para análise de dados do Mercado Libre*
+*Deus é bom e fiel*
