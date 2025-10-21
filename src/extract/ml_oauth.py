@@ -9,7 +9,7 @@ import time
 
 load_dotenv()
 
-class ml_oauth:
+class ML_OAuth:
     def __init__(self):
         self.client_id = os.getenv('CLIENT_ID')
         self.client_secret = os.getenv('CLIENT_SECRET')
@@ -89,5 +89,5 @@ class ml_oauth:
 
 
 if __name__ == "__main__":
-    ml_oauth_instance = ml_oauth()
+    ml_oauth_instance = ML_OAuth()
     ml_oauth_instance.start_auth_process()
